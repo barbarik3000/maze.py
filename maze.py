@@ -54,8 +54,8 @@ class Wall(sprite.Sprite):
 font.init()
 
 font = font.Font(None, 70)
-win = font.render("YOU WIN !", True, (0, 0, 0))
-lose = font.render("YOU LOSE !", True, (0, 0, 0 ))
+win = font.render("YOU WIN !", True, (120, 0, 0))
+lose = font.render("YOU LOSE !", True, (120, 0, 0 ))
 
 window = display.set_mode((700, 500))
 display.set_caption("Догонялки")
