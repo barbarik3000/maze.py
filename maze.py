@@ -54,7 +54,7 @@ class Wall(sprite.Sprite):
 font.init()
 
 font = font.Font(None, 70)
-win = font.render("YOU WIN !", True, (120, 0, 0))
+win = font.render("YOU WIN !", True, (121, 0, 0))
 lose = font.render("YOU LOSE !", True, (120, 0, 0 ))
 
 window = display.set_mode((700, 500))
